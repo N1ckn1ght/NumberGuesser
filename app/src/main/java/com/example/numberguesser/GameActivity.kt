@@ -20,6 +20,7 @@ class GameActivity : AppCompatActivity() {
         l = intent.getLongExtra("l", Long.MIN_VALUE + 1)
         r = intent.getLongExtra("r", Long.MAX_VALUE - 1)
         l -= 1
+        r += 1
         calc()
     }
 
